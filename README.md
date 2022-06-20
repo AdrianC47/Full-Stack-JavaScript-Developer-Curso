@@ -10,8 +10,8 @@ Ventaja
 En lo relativo a los datos, como, por ejemplo, al rellenar formularios con nombres de usuario y contraseñas, el método POST ofrece mucha discreción.
 Desventaja
 Cuando una página web que contiene un formulario se actualiza (por ejemplo, cuando se retrocede a la página anterior) los datos del formulario deben transferirse de nuevo (puede que alguna vez hayas recibido una de estas advertencias). Por este motivo, existe el riesgo de que los datos se envíen varias veces por error, lo que, en el caso de una tienda online, puede dar lugar a pedidos duplicados.Además, los datos transferidos con el método POST no pueden guardarsejunto al URL como marcador.
-![img](GET Y POST.PNG)
+![img](GETYPOST.PNG)
 
 ¿Cuándo usar uno u otro?
 
-![img](GET Y POST1.PNG)
+![img](GETYPOST1.PNG)
