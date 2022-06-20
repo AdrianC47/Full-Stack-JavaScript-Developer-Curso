@@ -14,4 +14,4 @@ Cuando una página web que contiene un formulario se actualiza (por ejemplo, cua
 
 ¿Cuándo usar uno u otro?
 
-![intro](GET Y POST1.png)
+![intro](/GET Y POST1.png)
