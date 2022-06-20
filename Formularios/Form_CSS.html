@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con CSS</title>
+    <style>
+        /* con esta etiqueta doy estilo*/
+        input {
+            /* con este selector hago referencia a todos los elementos que lleven el mismo 
+                    nombre en este caso input, a  los cuales voy a dar estilo */
+            width: 100%;
+            padding: 16px 20px; /*Espacio entre el borde y el contenido**/
+            box-sizing: border-box; /*Calcula el ancho y el alto total de un elemento*/
+            margin: 10px 0px ; /* Establece el margen para los cuatro lados, en este caso se puso solo los 2*/
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Formulario estilizado con CSS </h1>
+    <div>
+        <!--La etiqueta div sirve para crear secciones o agrupar contenidos -->
+        <form action="http://localhost:3000 " method="POST">
+            <label for="nombre">Nombre</label>
+            <!-- el for me ayuda a asociar el label con otro elemento html , en este caso al input por medio del id nombre -->
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre aquí" />
+            <br>
+            <br>
+            <!-- El placeholder me ayuda a indicar al usuario que debe poner dentro del input-->
+            <label for="apellido">Apellido</label>
+            <input type="text" name="Apellido" id="apellido" placeholder="Escribe tu apellido aquí" />            
+        </form>    
+    </div>
+</body>
+
+</html>
